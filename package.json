@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/index",
-    "app": "node src/index"
+    "start": "node src/index"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
