@@ -1,0 +1,22 @@
+{
+  "name": "api-rest-products",
+  "version": "0.0.0",
+  "description": "api rest products for deployment",
+  "main": "index",
+  "author": "damnedani",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "app": "node src/index"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-promise-router": "^4.1.1",
+    "mysql2": "^2.3.3"
+  }
+}
